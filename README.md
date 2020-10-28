@@ -1,6 +1,4 @@
-# wp-book
-
-code quality summary  provided by:- [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/arth36/wp-book/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/arth36/wp-book/?branch=master)
+############ wp-book #############
 
 This Wordpress plugin consist of Shortcode, bundle of Widgets, custom post type, category and tag taxonomies, custom settings page, etc to manage books.
 
@@ -24,9 +22,9 @@ This Plugin is not available on wordpress, user has to manually activate the plu
  3. >Create new Folder named `wp-book` and copy all content of `wp-book` which has downloaded from github.
  4. >Go to your `Wordpress Admin Panel` and then go to plugins folder.
  5. >There will be a new plugin named `wp-book` and then activate it.
- 6. >Last step is bit simple, `ENJOY IT!` :grin:
+ 6. >Last step is bit simple, `ENJOY IT!`
  
-For Demo click [here]( https://wpbookplugin.000webhostapp.com/ )
+For Demo click [here]( http://mydailyblogs.epizy.com/wp-book )
 
 # Screenshots :-
 
@@ -40,7 +38,7 @@ Book Tags non-hierarchical taxonomy:-
 
 Book Admin Setting page:-
 
-![Image of Book Settings Page]( https://i.ibb.co/7CqFbTp/newadmin.png )
+![Image of Book Settings Page]( https://i.ibb.co/4szbQ3k/book-admin-setting-page.png )
 
 Custom MetaBox :-
 
@@ -56,7 +54,7 @@ Custom Posttype Book metavalue store in Custom Table :-
 
 Custom Dashboard widget to show top 5 book categories And also Book Setting page appears below the Custom post type Books :-
 
-![Image of Top 5 Book Categories]( https://i.ibb.co/5xf2J9L/newdashboard.png" )
+![Image of Top 5 Book Categories]( https://i.ibb.co/ZdVC2bp/custom-dashboard-widget.png )
 
 Book Shortcode :-
 

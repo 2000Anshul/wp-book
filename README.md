@@ -1,38 +1,67 @@
-# wp-starter
+# wp-book
 
-This is a Github [template repo](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-template-repository) with just a readme file that you are reading right now and a magical `.github` folder which contains [Github Actions](https://github.com/features/actions) that automatically check your code against [WordPress Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/).
+code quality summary  provided by:- [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/arth36/wp-book/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/arth36/wp-book/?branch=master)
 
-As you are here, you are most likely looking to work with rtCamp where code quality is very important to us. But even if you have no intention to join rtCamp, you are free to use this repo and automated checks present in it, to improve your WordPress coding skill. 
+This Wordpress plugin consist of Shortcode, bundle of Widgets, custom post type, category and tag taxonomies, custom settings page, etc to manage books.
 
-## Usage
+* [ For Developers ](#for-developers)
+* [ For Users ](#for-users)
+* [ Screenshots ](#screenshots)
 
-There are three ways to use this template repo:
+# For Developers :-
 
-### 1. Using Github Classroom Assignment Link
+## List of main directory and file
 
-1. If you are looking to work with rtCamp, it's better to start [using this assignment link](https://classroom.github.com/a/sC4KV_YZ).
-2. When you open the link, Github will prompt you to "Accept this assignment". 
-3. Clicking the "Accept..." button creates a private copy of this repo to which you and rtCamp's evaluators will have access. Your access level for the repo will be admin-level.
-4. You are expected to push all your codes to this new repo. Make sure you do not touch `.github` folder accidentally as it can break the magic.
-5. If you have developed any theme or plugin codes in the past, you are free to push those codes in your private repo. 
-6. When pushing existing large code-base, we request you to commit them in chunks — ideally one PHP file at a time. You can commit all non-PHP files at once as rtBot only checks PHP codes at the moment. It is yet to [Learn JavaScript Deeply](https://wesbos.com/learn-javascript)!
+  * >`includes` :- this directory consist of all files for admin side functionality
+  * >`wp-book.php` :- main file, the execution starts from here.
 
-**Advantages**
-1. You will not have to configure anything. You can just accept the assignment from the link and start pushing your codes right away. 
-2. As you are repo-admin for your copy, at any time, you can move the repo to your personal space. After all, you should have right over your code. 
+# For Users :-
+	
+This Plugin is not available on wordpress, user has to manually activate the plugin, for this user has to follow some steps which has listed below:-
 
-### 2. "Use this template" option 
+ 1. >Click on `clone and download` and download the zip file.
+ 2. >From cpanel navigate to `wp-content` and then `plugins` folder.
+ 3. >Create new Folder named `wp-book` and copy all content of `wp-book` which has downloaded from github.
+ 4. >Go to your `Wordpress Admin Panel` and then go to plugins folder.
+ 5. >There will be a new plugin named `wp-book` and then activate it.
+ 6. >Last step is bit simple, `ENJOY IT!` :grin:
+ 
+For Demo click [here]( https://wpbookplugin.000webhostapp.com/ )
 
-1. You can click "Use this template" button or [visit this link](https://github.com/rtlearn/wp-starter/generate)
-2. You will be prompted to select the name/destination for new repo. 
-3. Please note that you may need to configure automated code review yourself. If you do not, your assignment may not be considered for review.
-   
-### 3. Clone or Fork as a normal repo
+# Screenshots :-
 
-You are free to do whatever you would like to do with this repo. Please note that you may need to configure automated code review yourself.
+Book Category Widget:-
 
-## Automated PHPCS checks
-1. The [coding standard rulest](phpcs.xml) in the automated PHPCS checks are configured to check database, security, and basic code analysis related checks mainly. [Ref. to list of rulesets](https://github.com/WordPress/WordPress-Coding-Standards#rulesets).
-2. It will not check for inline code comments, code formatting, and spacing issues, those checks have been excluded. But it is good to have these as well in your code.
-3. [This](https://learn.rtcamp.com/lessons/coding-standards-and-best-practices/) is a good starting point for understanding the WordPress Coding Standards.
-4. [Guide](https://github.com/WordPress/WordPress-Coding-Standards#using-phpcs-and-wpcs-from-within-your-ide) to setup the WordPress Coding Standard checks in your IDE.
+![Image of Book Category Widget]( https://i.ibb.co/S7L6Yvp/bookhierarchy.png )
+
+Book Tags non-hierarchical taxonomy:-
+
+![Image of Book Tag Taxonomy]( https://i.ibb.co/nbT5pgr/booknonhierarchy.png )
+
+Book Admin Setting page:-
+
+![Image of Book Settings Page]( https://i.ibb.co/7CqFbTp/newadmin.png )
+
+Custom MetaBox :-
+
+![Image of Book MetaBox]( https://i.ibb.co/b50t1Qf/custommetabox.png )
+
+Custom Table in Wordpress Database :-
+
+![Image of Book Table]( https://i.ibb.co/RhVX3nN/customtable.png )
+
+Custom Posttype Book metavalue store in Custom Table :-
+
+![Image of Book Table Values]( https://i.ibb.co/6PW6Q2x/customtablevalues.png )
+
+Custom Dashboard widget to show top 5 book categories And also Book Setting page appears below the Custom post type Books :-
+
+![Image of Top 5 Book Categories]( https://i.ibb.co/5xf2J9L/newdashboard.png" )
+
+Book Shortcode :-
+
+![Image of Book Shortcode]( https://i.ibb.co/3fZY9RJ/newsite1.png )
+
+Display Books of selected category :-
+
+![Image of Books of Selected Category]( https://i.ibb.co/cgRZcS6/newsite2.png )

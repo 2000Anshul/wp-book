@@ -38,7 +38,7 @@ Book Tags non-hierarchical taxonomy:-
 
 Book Admin Setting page:-
 
-![Image of Book Settings Page]( https://i.ibb.co/4szbQ3k/book-admin-setting-page.png )
+![Image of Book Settings Page]( https://i.ibb.co/MDs893v/book-admin-setting-page.png )
 
 Custom MetaBox :-
 
@@ -54,7 +54,7 @@ Custom Posttype Book metavalue store in Custom Table :-
 
 Custom Dashboard widget to show top 5 book categories And also Book Setting page appears below the Custom post type Books :-
 
-![Image of Top 5 Book Categories]( https://i.ibb.co/ZdVC2bp/custom-dashboard-widget.png )
+![Image of Top 5 Book Categories]( https://i.ibb.co/dfHZLYm/custom-dashboard-widget.png )
 
 Book Shortcode :-
 

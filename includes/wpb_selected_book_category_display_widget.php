@@ -1,9 +1,9 @@
 <?php
 class Wpb_Book_Widget extends WP_Widget {
     
-    /**************************************************
+    /*************************************************
         * setup the widget name, description, etc..
-    ***************************************************/
+    **************************************************/
     public function __construct() {
         $widget_options = array(
             'classname' => 'wpb-book-widget', // html class name
